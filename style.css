@@ -1,0 +1,52 @@
+/* Los comentarios se escriben de esta forma en CSS */
+
+/* Selecciono la etiqueta body */
+body {
+  background-color: #d9fffd; /* Le pongo un color de fondo celeste */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* De fuente de texto uso Tahoma */
+  font-size: 18px; /* Que el texto tenga 18 px por defecto */
+  color: #333333; /* El color de texto será gris */
+}
+
+/* Selecciono los títulos */
+h1 {
+  color: red; /* Hago que los títulos tengan solo color rojo */
+}
+
+/* Cuando la sentencia lleva # significa que es para el elemento html con ese id */
+#div-oculto {
+  display: none; /* Oculta el elemento */
+}
+
+@media (max-width: 600px) { /* CSS que solo funcionará para los celulares */
+  h1{
+    font-size: 16px;
+  }
+}
+
+/* 
+Botón generado con la siguiente web
+https://www.bestcssbuttongenerator.com/ 
+Cuando la sentencia arranca con un "." significa que es para los atributos "class" de html
+*/
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
